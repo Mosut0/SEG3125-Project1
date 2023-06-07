@@ -21,6 +21,20 @@ section {
     color: black;
 }
 
+.expert-image {
+    width: 100%;
+    height: 110vh;
+    overflow-y: hidden;
+    background: url(resources/images/expert-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -60,6 +74,11 @@ a:hover {
 
 .book-now{
     color: red;
+}
+.book{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .scroll-logo {
@@ -118,7 +137,7 @@ body{
 
 .card {
     display: fixed;
-    height: 450px;
+    height: 420px;
     width: 400px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -126,13 +145,17 @@ body{
 }
 
 .card-img-top {
-    align-items: center;
-    width: 200px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -145,3 +168,22 @@ body{
 .card-text {
     font-size: 16px;   
 }
+
+.price{
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2::after {
+    background: transparent url(resources/images/seperator.png) no-repeat;
+    content: '';
+    height: 20px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 65px;
+    transform: translateY(50px);
+}
+
