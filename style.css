@@ -187,3 +187,64 @@ h2::after {
     transform: translateY(50px);
 }
 
+.expert-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .expert-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .expert-card h3 {
+    margin-top: 0;
+  }
+
+  .expert-card p {
+    margin-bottom: 0;
+  }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:5rem;
+    top:5rem;
+    height:40%;
+    width:25%;
+    position:absolute;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: var(--bs-breadcrumb-divider, ">");
+}
