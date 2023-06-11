@@ -129,10 +129,6 @@ body::-webkit-scrollbar-thumb
 
 body::-webkit-scrollbar-thumb:hover {
     background-color: #555;
-  }
-
-body{
-    overflow: overlay ;
 }
 
 .card {
@@ -247,4 +243,10 @@ footer {
 
 .breadcrumb-item+.breadcrumb-item::before{
     content: var(--bs-breadcrumb-divider, ">");
+}
+
+.breadcrumb-items{
+    color: #000000;
+    transition: color .15s ease-in-out,blue .15s ease-in-out,blue .15s ease-in-out;
+    text-decoration:none;
 }
