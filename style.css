@@ -11,7 +11,7 @@ section {
     width: 100%;
     height: 100vh;
     overflow-y: hidden;
-    background: url(resources/images/home-img.jpg);
+    background: url(resources/images/home-img.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -21,11 +21,11 @@ section {
     color: black;
 }
 
-.expert-image {
+.consultation-image {
     width: 100%;
-    height: 110vh;
+    height: max-content;
     overflow-y: hidden;
-    background: url(resources/images/expert-image.png);
+    background: url(resources/images/tools.jpg);/*from https://www.istockphoto.com/photo/professional-barberian-tools-of-hairdresser-on-table-tools-for-cutting-beard-and-gm1176958822-328363352*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -250,3 +250,10 @@ footer {
     transition: color .15s ease-in-out,blue .15s ease-in-out,blue .15s ease-in-out;
     text-decoration:none;
 }
+
+.map-container {
+    flex: 1 1 100%;
+    padding: 10px;
+}
+  
+  
